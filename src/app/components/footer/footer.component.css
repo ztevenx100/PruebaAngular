@@ -1,0 +1,127 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*links:
+-https://ponceelrelajado.com/footer-siempre-abajo/
+-https://www.google.com/search?rlz=1C1KMZB_enCO832CO832&ei=SuDuXOKdBNHG5gKDgbyYBQ&q=css+footer+siempre+abajo&oq=css%2B&gs_l=psy-ab.1.1.0i10j0i67l6j0i10l3.1048709.1052354..1079066...1.0..0.241.779.0j5j1......0....1..gws-wiz.....0..0i71j0i131j0.VLu7ZrrDohk
+*/
+/* 
+    Created on : 16/09/2018, 09:59:44 PM
+    Author     : Steven
+*/
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+
+/*-------------------------------------------------------------------------------
+        Footer
+-------------------------------------------------------------------------------*/
+footer {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid #fff;
+}
+
+.info {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+.footer-info {
+  padding: 0;
+  text-align: center;
+}
+
+.footer-info a {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.footer-info a:hover {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
+.upgrade {
+  height: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.upgrade label {
+  top: 0;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  width: 60%;
+}
+
+.footer .base-contact-social {
+  padding: 10px 0;
+  height: 100%;
+  text-align: center;
+}
+
+.footer .base-contact-social .contact-social {
+  padding: 0;
+  margin: 0;
+}
+
+.footer .contact-social a {
+  padding: 0;
+}
+
+.footer .contact-social a i {
+  border: none !important;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.footer .contact-social a i:hover,
+.footer .contact-social a i:focus {
+  background-color: #fff;
+}
+
+.footer .contact-social a .fa-facebook:hover,
+.footer .contact-social a .fa-facebook:focus {
+  color: rgb(255, 255, 255);
+  background-color: rgb(48, 128, 225);
+}
+
+.footer .contact-social a .fa-twitter:hover,
+.footer .contact-social a .fa-twitter:focus {
+  color: rgb(255, 255, 255);
+  background-color: rgb(48, 201, 225);
+}
+
+.footer .contact-social a .fa-youtube:hover,
+.footer .contact-social a .fa-youtube:focus {
+  color: rgb(255, 255, 255);
+  background-color: rgb(213, 0, 0);
+}
+
+.footer .contact-social a .fa-whatsapp:hover,
+.footer .contact-social a .fa-whatsapp:focus {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 204, 31);
+}

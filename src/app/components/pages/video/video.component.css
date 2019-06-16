@@ -1,0 +1,27 @@
+html {
+  overflow-x: hidden;
+}
+
+h1 {
+  text-align: center;
+  font-size: 20 px;
+  font-weight: 700;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+
+app-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.espacio {
+  height: 220px;
+}

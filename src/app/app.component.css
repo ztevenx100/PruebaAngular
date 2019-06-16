@@ -1,0 +1,13 @@
+ul {
+  text-align: center;
+}
+
+app-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.espacio {
+  height: 220px;
+}

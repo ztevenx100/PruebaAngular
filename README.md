@@ -1,2 +1,0 @@
-# RegaloEymith
-Created with CodeSandbox

@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand navbar-dark navbar-static-top">
+  <!-- Links -->
+  <div class="navbar mx-auto">
+    <div class="nav-item">
+      <a class="nav-link" routerLink="/home" routerLinkActive="active">Otros</a>
+    </div>
+    <div class="nav-item">
+      <!-- Brand/logo -->
+      <a class="navbar-brand" [routerLink]="['/']" routerLinkActive="active"
+        >{{titulo}}</a
+      >
+    </div>
+    <div class="nav-item">
+      <a class="nav-link" routerLink="/home" routerLinkActive="active"
+        >Planes</a
+      >
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
